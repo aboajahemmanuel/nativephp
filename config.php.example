@@ -1,0 +1,16 @@
+<?php
+// Example config for committing to repo. Copy to `config.php` and fill in credentials.
+
+return [
+    // Set to 'mysql' to use MySQL, or 'sqlite' to use the bundled SQLite file.
+    'driver' => 'sqlite',
+
+    'mysql' => [
+        'host' => '127.0.0.1',
+        'port' => 3306,
+        'dbname' => 'nativephp',
+        'user' => 'nativephp_user',
+        'pass' => 'CHANGE_ME',
+        'charset' => 'utf8mb4',
+    ],
+];

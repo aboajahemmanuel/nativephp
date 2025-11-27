@@ -1,0 +1,14 @@
+/* Minimal styles for the CRUD app */
+body { font-family: Arial, Helvetica, sans-serif; background: #f8f9fb; color: #222; }
+.container { max-width: 800px; margin: 40px auto; background: #fff; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+h1 { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; }
+table th, table td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+.btn { display: inline-block; padding: 6px 10px; background: #007bff; color: #fff; text-decoration: none; border-radius: 4px; margin-right: 6px; }
+.btn:hover { opacity: 0.9; }
+.danger { background: #dc3545; }
+label { display: block; margin-bottom: 12px; }
+input[type="text"], textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+.errors { background: #fff3cd; border: 1px solid #ffeeba; padding: 10px; margin-bottom: 12px; }
+.meta { color: #666; font-size: 0.9em; margin-bottom: 8px; }
+.content { white-space: pre-wrap; border: 1px solid #f0f0f0; padding: 12px; background: #fafafa; border-radius: 4px; }
