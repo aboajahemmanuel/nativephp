@@ -1,0 +1,44 @@
+
+==================================================
+Deploy started: 2025-11-28 02:18:06
+Target: \\10.10.15.59\c$\xampp\htdocs\fmrr
+==================================================
+
+Network authentication attempt:
+The command completed successfully.
+
+Return code: 0
+
+✓ Test file created: \\10.10.15.59\c$\xampp\htdocs\fmrr\deployment-test-2025-11-28-021809.txt
+
+Step 1: Configuring Git safe directory
+Command: git config --global --add safe.directory //10.10.15.59/c$/xampp/htdocs/fmrr
+Output:
+
+Return code: 0
+✓ Success
+--------------------------------------------------
+
+Step 2: Clearing application cache
+Command: cd /d "\\10.10.15.59\c$\xampp\htdocs\fmrr" && php artisan cache:clear
+Output:
+
+Return code: 1
+✗ Failed
+--------------------------------------------------
+
+Deployment stopped due to error in step 2
+==================================================
+Deploy completed: 2025-11-28 02:18:12
+==================================================
+
+==================================================
+Deploy started: 2025-11-28 08:45:26
+Target: \\10.10.15.59\c$\xampp\htdocs\fmrr
+==================================================
+
+Network authentication attempt:
+'net' is not recognized as an internal or external command,
+operable program or batch file.
+Return code: 1
+
